@@ -3,7 +3,7 @@ footer{
     background-color: #2b2d42;
     color: #edf2f4;
     padding: 3%;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 /* 
 .footer-container{

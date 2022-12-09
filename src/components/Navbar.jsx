@@ -6,7 +6,7 @@ import { ImCheckmark2 } from "react-icons/im";
 const Navbar = () => {
   return (
     <nav className='flex'>
-        <ImCheckmark2 size={20}/>
+          <a href="/"><ImCheckmark2 size={20}/></a>
         <ul className='nav_list flex'>
             <li className='nav_items'>Men</li>
             <li className='nav_items'>Women</li>

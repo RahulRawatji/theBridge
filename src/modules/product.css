@@ -1,3 +1,11 @@
+.productMain{
+    display: grid;
+}
+
+.productFilter{
+    display: none;
+}
+
 .productGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -11,7 +19,20 @@
 }
 
 .img__container{
+    position: relative;
     /* width: 400px; */
+}
+
+.productRating{
+    position: absolute;
+    bottom:55px;
+    left: 0;
+    background-color: azure;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:.4rem;
 }
 
 @media (min-width:780px){
@@ -21,5 +42,14 @@
         gap:1rem;
     }
     
+    .productMain{
+        grid-template-columns: 25% 1fr;
+    }
+    .productFilter{
+        display: flex;
+        padding: 5%;
+        flex-direction: column;
+        gap: 1rem;
+    }
 
 }

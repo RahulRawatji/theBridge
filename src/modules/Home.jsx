@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import './home.css';
 
@@ -42,14 +42,17 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='m-2 '>
+      <section className='m-2'>
         <h2>CATEGORY</h2>
         <div className='category-section'>
           {popularCategoriesImg.map(item => {
             return( <>
-            <div className='img-container category-img-container ' key={item.title}>
-            <LazyLoadImage src={item.img} className='hero-img ' effect="blur" />
+           /// Make responsive for mobile
+            <div className='category-img-container' key={item.title}>
+            <Link to={'/products'} style={{textDecoration:'none', color:'#2D2D34'}}>
+            <LazyLoadImage src={item.img} className='category_img' effect="blur" />
             <h3 className='text-center'>{item.title}</h3>
+          </Link>
           </div>
           </>)
           })}

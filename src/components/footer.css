@@ -1,15 +1,9 @@
 footer{
-    height: 40vh;
+    /* height: 40vh; */
     background-color: #2b2d42;
     color: #edf2f4;
     padding: 3%;
-    /* overflow-y: hidden; */
 }
-/* 
-.footer-container{
-    grid-template-columns: 1fr 1fr 1fr 2fr;
-    margin-bottom: 2%;
-} */
 
 .list{
     flex-direction: column;

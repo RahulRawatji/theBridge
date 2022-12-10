@@ -1,0 +1,25 @@
+.productGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2%;
+    gap:.5rem;
+}
+
+.productImg{
+    width: calc(112% - 25px );
+    aspect-ratio: 2/3;
+}
+
+.img__container{
+    /* width: 400px; */
+}
+
+@media (min-width:780px){
+    .productGrid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:1rem;
+    }
+    
+
+}

@@ -42,20 +42,18 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='m-2'>
+      <section className='m-2 '>
         <h2>CATEGORY</h2>
-        <div className='flex catrgory-section hero-slider'>
+        <div className='category-section'>
           {popularCategoriesImg.map(item => {
             return( <>
-            <div className='img-container' key={item.title}>
-            <LazyLoadImage src={item.img} className='hero-img' effect="blur" />
-            <h3>{item.title}</h3>
+            <div className='img-container category-img-container ' key={item.title}>
+            <LazyLoadImage src={item.img} className='hero-img ' effect="blur" />
+            <h3 className='text-center'>{item.title}</h3>
           </div>
           </>
-          )
-          }
           )}
-          
+          )}
         </div>
 
       </section>

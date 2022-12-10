@@ -51,9 +51,8 @@ const Home = () => {
             <LazyLoadImage src={item.img} className='hero-img ' effect="blur" />
             <h3 className='text-center'>{item.title}</h3>
           </div>
-          </>
-          )}
-          )}
+          </>)
+          })}
         </div>
 
       </section>

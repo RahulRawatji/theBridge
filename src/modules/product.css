@@ -23,9 +23,18 @@
     /* width: 400px; */
 }
 
+.productStyle{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    padding: 0 3%;
+    background-color: hsla(208, 6%, 51%, 0.492);
+    color: beige;
+}
+
 .productRating{
     position: absolute;
-    bottom:55px;
+    bottom:80px;
     left: 0;
     background-color: azure;
     padding: 1%;

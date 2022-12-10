@@ -47,7 +47,7 @@ const Home = () => {
         <div className='category-section'>
           {popularCategoriesImg.map(item => {
             return( <>
-           /// Make responsive for mobile
+           {/* /// Make responsive for mobile */}
             <div className='category-img-container' key={item.title}>
             <Link to={'/products'} style={{textDecoration:'none', color:'#2D2D34'}}>
             <LazyLoadImage src={item.img} className='category_img' effect="blur" />

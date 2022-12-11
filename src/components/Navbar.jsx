@@ -5,13 +5,74 @@ import { ImCheckmark2 } from "react-icons/im";
 
 const Navbar = () => {
   return (
-    <nav className='flex'>
-          <a href="/"><ImCheckmark2 size={20}/></a>
-        <ul className='nav_list flex'>
-            <li className='nav_items'>Men</li>
-            <li className='nav_items'>Women</li>
-            <li className='nav_items'>Sale</li>
-        </ul>
+    <nav>
+        <a href="/"><ImCheckmark2 size={20}/></a>
+        <div className='main_menu'>
+            <div className='menu_item'>
+              <a href='#'>Men</a>
+              <div className='menu_sub'>
+                <div>
+                  <h4>Topwear</h4>
+                <ul className='list_items'>
+                  <li>T-Shirts</li>
+                  <li>Shirts</li>
+                  <li>Vest</li>
+                  <li>Kurtas</li>
+                  <li></li>
+                </ul>
+                </div>
+                <div>
+                  <h4>Bottomwear</h4>
+                <ul className='list_items'>
+                  <li><a href="#">Jeans</a></li>
+                  <li><a href="#">Pajamas</a></li>
+                  <li><a href="#">Jogers</a></li>
+                  <li><a href="#">Shorts</a></li>
+                  <li><a href="#">Breif</a></li>
+                  <li><a href="#">Trunks</a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div className='menu_item'>
+              <a href='#'>Women</a>
+              <div className='menu_sub'>
+                <div>
+                  <h4>Topwear</h4>
+                <ul className='list_items'>
+                  <li>T-Shirts</li>
+                  <li>Shirts</li>
+                  <li>Vest</li>
+                  <li>Kurtas</li>
+                  <li></li>
+                </ul>
+                </div>
+                <div>
+                  <h4>Bottomwear</h4>
+                <ul className='list_items'>
+                  <li><a href="#">Jeans</a></li>
+                  <li><a href="#">Pajamas</a></li>
+                  <li><a href="#">Jogers</a></li>
+                  <li><a href="#">Shorts</a></li>
+                  <li><a href="#">Breif</a></li>
+                  <li><a href="#">Trunks</a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div className='menu_item'>
+              <a href="#">Sale</a>
+              {/* <div className='menu_sub'>
+                <ul>
+                  <li>Hoodies</li>
+                  <li>Jackets</li>
+                  <li>Hi</li>
+                </ul>
+              </div> */}
+            </div>
+        </div>
         <AiOutlineShoppingCart/>
     </nav>
   )

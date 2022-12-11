@@ -9,7 +9,11 @@
 html {
   scrollbar-color: #6969dd #e0e0e0;
   scrollbar-width: thin;
-  
+  scroll-behavior: smooth;
+}
+a,a:link{
+  text-decoration: none;
+  color: #2D2D34;
 }
 
 :root{
@@ -34,8 +38,23 @@ html {
   grid-template-columns: 1fr 1fr 1fr; 
 }
 
+/* Margins */
+
 .m-2{
   margin: 2%;
+}
+
+/* Padding */
+.p-2{
+  padding: 2%;
+}
+
+.p-1{
+  padding: 1%;
+}
+
+.gap-1{
+  gap: 1rem;
 }
 
 .btn{
@@ -56,6 +75,7 @@ html {
 .font-sm{
   font-size: 12px;
 }
+
 .text-center{
   text-align: center;
 }

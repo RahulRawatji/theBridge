@@ -14,11 +14,13 @@ const Navbar = () => {
                 <div>
                   <h4>Topwear</h4>
                 <ul className='list_items'>
-                  <li>T-Shirts</li>
-                  <li>Shirts</li>
-                  <li>Vest</li>
-                  <li>Kurtas</li>
-                  <li></li>
+                  <li><a href="#">T-Shirts</a></li>
+                  <li><a href="#">Shirts</a></li>
+                  <li><a href="#">Vest</a></li>
+                  <li><a href="#">Kurtas</a></li>
+                  <li><a href="#">Jackets</a></li>
+                  <li><a href="#">Hoodies</a></li>
+                  <li><a href="#">Sweaters</a></li>
                 </ul>
                 </div>
                 <div>
@@ -31,6 +33,15 @@ const Navbar = () => {
                   <li><a href="#">Breif</a></li>
                   <li><a href="#">Trunks</a></li>
                 </ul>
+                </div>                
+                <div>
+                  <h4>Sports & Activewear</h4>
+                <ul className='list_items'>
+                  <li><a href="#">Activewear T-Shirt</a></li>
+                  <li><a href="#">Activewear Shorts</a></li>
+                  <li><a href="#">Activewear Shoes</a></li>
+                </ul>
+
                 </div>
               </div>
             </div>
@@ -41,11 +52,13 @@ const Navbar = () => {
                 <div>
                   <h4>Topwear</h4>
                 <ul className='list_items'>
-                  <li>T-Shirts</li>
-                  <li>Shirts</li>
-                  <li>Vest</li>
-                  <li>Kurtas</li>
-                  <li></li>
+                  <li><a href="#">T-Shirts</a></li>
+                  <li><a href="#">Shirts</a></li>
+                  <li><a href="#">Vest</a></li>
+                  <li><a href="#">Kurtas</a></li>
+                  <li><a href="#">Jackets</a></li>
+                  <li><a href="#">Hoodies</a></li>
+                  <li><a href="#">Sweaters</a></li>
                 </ul>
                 </div>
                 <div>

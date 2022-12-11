@@ -114,7 +114,6 @@ to{
 @media (min-width:450px){
     
     .category_img{
-        /* width: calc(112% - 25px ); */
         padding: 2%;
         width: 300px;
         aspect-ratio: 2/3;

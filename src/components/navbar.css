@@ -7,7 +7,6 @@ nav{
 
 nav ul{
     list-style-type: none;
-    position: relative;
 }
 
 .main_menu{
@@ -17,10 +16,13 @@ nav ul{
 }
 
 
+.main_menu a{
+    position: relative;
+}
+
 .menu_sub{
     position: absolute;
     opacity: 0;
-    top: 7dvh;
     left: 30%;
     width: 50%;
     padding: 2dvw;
@@ -29,11 +31,10 @@ nav ul{
 }
 .menu_item{
     height: 30px;
-    /* padding: 1%; */
 }
+
 .menu_item:hover{
     border-bottom: 4px solid rgba(227, 137, 11, 0.892);
-    /* background-color: aqua; */
 }
 
 .menu_item:hover > .menu_sub{
@@ -54,4 +55,8 @@ nav ul{
     flex-direction: column;
     gap: .5rem;
     font-size: .8rem;
+}
+
+.list_items li:hover{
+    text-decoration: underline;
 }

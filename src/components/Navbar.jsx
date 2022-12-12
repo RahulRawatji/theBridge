@@ -24,6 +24,17 @@ const Navbar = () => {
                 </ul>
                 </div>
                 <div>
+                  <h4>Footwear</h4>
+                <ul className='list_items'>
+                  <li><a href="#">Casual Shoes</a></li>
+                  <li><a href="#">Sports Shoes</a></li>
+                  <li><a href="#">Sneakers</a></li>
+                  <li><a href="#">Sandles</a></li>
+                  <li><a href="#">Slip-Ons</a></li>
+                </ul>
+
+                </div>
+                <div>
                   <h4>Bottomwear</h4>
                 <ul className='list_items'>
                   <li><a href="#">Jeans</a></li>
@@ -33,6 +44,7 @@ const Navbar = () => {
                   <li><a href="#">Breif</a></li>
                   <li><a href="#">Trunks</a></li>
                 </ul>
+
                 </div>                
                 <div>
                   <h4>Sports & Activewear</h4>

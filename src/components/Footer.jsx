@@ -2,6 +2,7 @@ import React from 'react';
 import './footer.css';
 
 import { SlSocialTwitter, SlSocialYoutube, SlSocialInstagram, SlSocialPintarest } from 'react-icons/sl';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           <li>SIGN UP FOR EMAIL</li>
         </ul>
         <ul className='list flex'>
-          <li>Get Help</li>
+          <Link to={'/contactUs'}><li>Get Help</li></Link>
           <li>Order Status</li>
           <li>Delivery</li>
           <li>Returns</li>

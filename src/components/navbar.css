@@ -22,6 +22,7 @@ nav ul{
 
 .menu_sub{
     position: absolute;
+    visibility: hidden;
     opacity: 0;
     left: 30%;
     width: 50%;
@@ -39,8 +40,9 @@ nav ul{
 
 .menu_item:hover > .menu_sub{
     opacity: 1;
-    pointer-events: all;
-    transition: ease-in .3s;
+    visibility: visible;
+    pointer-events: auto;
+    transition: opacity ease-in .3s;
 }
 
 .menu_sub{

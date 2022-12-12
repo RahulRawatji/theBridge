@@ -11,6 +11,7 @@ html {
   scrollbar-width: thin;
   scroll-behavior: smooth;
 }
+
 a,a:link{
   text-decoration: none;
   color: #2D2D34;
@@ -78,4 +79,13 @@ a,a:link{
 
 .text-center{
   text-align: center;
+}
+
+li{
+  color: aliceblue;
+}
+
+img{
+  width: 100%;
+  height: auto;
 }

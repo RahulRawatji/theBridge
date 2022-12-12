@@ -86,7 +86,7 @@ const Navbar = () => {
               </div> */}
             </div>
         </div>
-        <AiOutlineShoppingCart/>
+        <AiOutlineShoppingCart size={25} onClick={()=>console.log("kart")} style={{cursor:'pointer'}}/>
     </nav>
   )
 }
